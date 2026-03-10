@@ -14,7 +14,7 @@ const documents = [
   { name: "MCA Filings", status: "pending" as const },
 ];
 
-const statusConfig = {
+const statusConfig: Record<string, { icon: typeof FileText; color: string; label: string; animate?: boolean }> = {
   processed: { icon: FileText, color: "text-signal-green", label: "Processed" },
   processing: { icon: Loader2, color: "text-signal-yellow", label: "In Progress", animate: true },
   pending: { icon: Clock, color: "text-muted-foreground", label: "Pending" },
