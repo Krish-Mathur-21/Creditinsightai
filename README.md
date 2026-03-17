@@ -6,7 +6,7 @@ Credit analytics dashboard built with React, TypeScript, Vite, Tailwind, and sha
 
 ### 1) Prerequisites
 
-- Node.js 20.19+ (or newer)
+- Node.js 20+ (or newer)
 - npm 10+
 
 Recommended: use a Node version manager so everyone uses the same runtime.
