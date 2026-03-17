@@ -31,10 +31,10 @@ export function AppSidebar() {
       {/* Logo */}
       <div className="p-4 border-b border-sidebar-border">
         <h1 className="font-mono text-lg font-bold text-foreground lg:block md:hidden">
-          <span className="text-primary">Intelli</span>Credit
+          <span className="text-primary">Credit</span>Insight AI
         </h1>
         <h1 className="font-mono text-lg font-bold text-primary hidden md:block lg:hidden">
-          IC
+          CI
         </h1>
       </div>
 
